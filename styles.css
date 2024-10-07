@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    background-color: rgb(130, 100, 158);
+}
+h1,h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#mainbtn {
+    background-color: rgb(99, 99, 180);
+    color: white;
+    height: 30px;
+    width: 10%;
+}
+
+.task {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.content {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#newTask {
+    width: 500px;
+    height: 30px;
+}
+
+
+.deletebtn {
+    background-color: rgb(92, 5, 5);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.changebtn {
+    background-color: rgb(172, 119, 7);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
